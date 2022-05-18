@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://drive.google.com/drive/u/0/folders/0B0RCpUeiOZmxY083ajFST0JaMms?resourcekey=0-Ekh0vVe7EEtcX97caD6b_A';
+  './adrian_jumaResume.pdf';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
